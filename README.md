@@ -70,7 +70,10 @@ __Post Processing Stack__
 ## __Requirements__
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
-  - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
+ - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
+ 
+[Resource](https://drive.google.com/file/d/1JD8vBoutQbyXtGuFTOFBQj3zOnIGCdsO/view?usp=sharing)  
+ - Download the resource and extract it to the 01_Asset folder.
  
 ## __Using Library, SDK__
 
