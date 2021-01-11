@@ -69,6 +69,7 @@ __Post Processing Stack__
  
 __File Format__  
 |Type|Format|  
+|-------|----------------------------------|  
 |3D|fbx|  
 |Texture|dds|  
 |Sound|mp3, wav, Other FMOD-enabled formats|  
