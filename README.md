@@ -1,9 +1,9 @@
 # __ChipsEngine__  
 ## __Description__    
-__1. Source code (C++) engine based on DirectX11.__  
-__2. The framework is implemented in Component Based Development (CBD).__  
-__3. LDR(Low Dynamic Range), Forward Rendering.__  
-__4. Class structure and function interface are similar to Unity, familiar to Unity users.__  
+1. Source code (C++) engine based on DirectX11.  
+2. The framework is implemented in Component Based Development (CBD).  
+3. LDR(Low Dynamic Range), Forward Rendering.  
+4. Class structure and function interface are similar to Unity, familiar to Unity users.  
 
 __Video (Click)__  
 [![Video](https://img.youtube.com/vi/Y8z6awMjyoc/0.jpg)](https://www.youtube.com/watch?v=Y8z6awMjyoc) 
@@ -73,10 +73,19 @@ __Post Processing Stack__
  - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
  
 [Resource](https://drive.google.com/file/d/1JD8vBoutQbyXtGuFTOFBQj3zOnIGCdsO/view?usp=sharing)  
- - __Download the resource and extract it to the 01_Asset folder.__
+ - Download the resource and extract it to the 01_Asset folder.
  
+[Lib, Dll](https://drive.google.com/file/d/1IzhkCYr7YYKaj9h9ftfQW_yliZ2I7n-K/view?usp=sharing)  
+ - Download the resource and extract it to the 03_Lib, 04_Dll folder.  
+ 
+[FbxSDK bin](https://drive.google.com/file/d/1z8lkl08F_j2KhMRP0ReUHIHmjNIUNUMu/view?usp=sharing)  
+ - Download the resource and extract it to the 02_Script\PhysXSDK\PhysX folder. 
+
 ## __Using Library, SDK__
 
+DirectX11 
+ - DirectX is a collection of application programming interfaces (APIs) for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms.
+ 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
  - TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.
  - zlib License  
