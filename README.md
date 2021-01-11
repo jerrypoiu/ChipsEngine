@@ -1,6 +1,6 @@
 ## __Description__    
 __0. Video (Click)__  
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Y8z6awMjyoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+https://www.youtube.com/watch?v=Y8z6awMjyoc  
 
 __1. Source code (C++) engine based on DirectX11.__  
 __2. The framework is implemented in Component Based Development (CBD).__  
