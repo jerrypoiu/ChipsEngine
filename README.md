@@ -26,7 +26,7 @@ __6. Core Class__
  - Input System - Keyboard, Mouse
  - Schedule System
  - Debug Rendering
- - Auto Memory Management  
+ - Auto Memory Management
 __8. Post Processing Stack__  
  - Ray Marching
  - Screen Space Ambient Occlusion (SSAO)
