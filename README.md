@@ -13,6 +13,7 @@ __6. Core Class__
  - Scene
  - GameObject
  - AComponent  
+ 
  __7. Core Features__
  - Transform (Scene Graph)
  - Physics Engine (PhysX) – Rigidbody, Collider
@@ -26,7 +27,8 @@ __6. Core Class__
  - Input System - Keyboard, Mouse
  - Schedule System
  - Debug Rendering
- - Auto Memory Management
+ - Auto Memory Management  
+ 
 __8. Post Processing Stack__  
  - Ray Marching
  - Screen Space Ambient Occlusion (SSAO)
