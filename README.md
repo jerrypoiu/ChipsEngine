@@ -72,7 +72,7 @@ __File Format__
 |:-------:|----------------------------------|  
 |3D|fbx|  
 |Texture|dds|  
-|Sound|mp3, wav, Other FMOD-enabled formats|  
+|Sound|mp3, wav, ther FMOD-enabled formats|  
 |Font|spritefont|  
 ## __Requirements__
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
