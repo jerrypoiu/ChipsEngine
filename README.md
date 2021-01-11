@@ -1,9 +1,9 @@
 # __ChipsEngine__  
 ## __Description__    
-> 1. Source code (C++) engine based on DirectX11.  
-> 2. The framework is implemented in Component Based Development (CBD).  
-> 3. LDR(Low Dynamic Range), Forward Rendering.  
-> 4. Class structure and function interface are similar to Unity, familiar to Unity users.  
+1. Source code (C++) engine based on DirectX11.  
+2. The framework is implemented in Component Based Development (CBD).  
+3. LDR(Low Dynamic Range), Forward Rendering.  
+4. Class structure and function interface are similar to Unity, familiar to Unity users.  
 
 __Video (Click)__  
 [![Video](https://img.youtube.com/vi/Y8z6awMjyoc/0.jpg)](https://www.youtube.com/watch?v=Y8z6awMjyoc) 
