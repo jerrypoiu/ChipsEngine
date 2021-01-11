@@ -1,21 +1,18 @@
 # __ChipsEngine__  
 ## __Description__    
-__0. Video (Click)__  
+__Video (Click)__  
 [![Video](https://img.youtube.com/vi/Y8z6awMjyoc/0.jpg)](https://www.youtube.com/watch?v=Y8z6awMjyoc) 
 
-__5. Class Diagram__  
+__Class Diagram__  
 ![classdiagram](/DescriptionImage/classDiagram.png)  
-__1. Source code (C++) engine based on DirectX11.__  
-__2. The framework is implemented in Component Based Development (CBD).__  
-__3. LDR(Low Dynamic Range), Forward Rendering.__  
-__4. Class structure and function interface are similar to Unity, familiar to Unity users.__  
-__6. Core Class__
+
+__Core Class__
 > - Application
 > - Scene
 > - GameObject
 > - AComponent  
  
- __7. Core Features__
+ __Core Features__
 > - Transform (Scene Graph)
 > - Physics Engine (PhysX) – Rigidbody, Collider
 > - Light System – Directional, Spot, Point, Shadow
@@ -30,7 +27,7 @@ __6. Core Class__
 > - Debug Rendering
 > - Auto Memory Management  
  
-__8. Post Processing Stack__  
+__Post Processing Stack__  
 > - Ray Marching
 > - Screen Space Ambient Occlusion (SSAO)
 > - Dark
