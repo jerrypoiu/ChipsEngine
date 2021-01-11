@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{087E23E4-7F9A-4524-83E9-B7CD8EB255C8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ChipsEninge</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;$(ProjectDir)02_Script;$(FBXSDK_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)03_Lib;$(FBXSDK_DIR)\lib\vs2015\x86\debug;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ProjectDir)02_Script;$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(ProjectDir)02_Script;$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;$(ProjectDir)02_Script;$(FBXSDK_DIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)03_Lib;$(FBXSDK_DIR)\lib\vs2015\x86\release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>$(ProjectDir)02_Script\PCH\stdafx.h</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)02_Script;$(FBXSDK_DIR)\include;$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>$(ProjectDir)02_Script\PCH\stdafx.h</PrecompiledHeaderFile>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>PhysX_32d.lib;PhysXCooking_32d.lib;PhysXCommon_32d.lib;PhysXCharacterKinematic_static_32d.lib;PhysXVehicle_static_32d.lib;PhysXExtensions_static_32d.lib;PhysXFoundation_32d.lib;PhysXPvdSDK_static_32d.lib;PhysXTask_static_32d.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DirectXTexd.lib;Effects11d.lib;DirectXTK_debug.lib;tinyxml2d.lib;libfbxsdk-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FBXSDK_DIR)\lib\vs2015\x86\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)02_Script;$(FBXSDK_DIR)\include;$(ProjectDir)02_Script\PhysXSDK\PhysX\include;$(ProjectDir)02_Script\PhysXSDK\PxShared\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>$(ProjectDir)02_Script\PCH\stdafx.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>$(ProjectDir)02_Script\PCH\stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>PhysX_32.lib;PhysXCooking_32.lib;PhysXCommon_32.lib;PhysXCharacterKinematic_static_32.lib;PhysXVehicle_static_32.lib;PhysXExtensions_static_32.lib;PhysXFoundation_32.lib;PhysXPvdSDK_static_32.lib;PhysXTask_static_32.lib;winmm.lib;d3d11.lib;d3dcompiler.lib;DirectXTex.lib;Effects11.lib;DirectXTK_release.lib;tinyxml2.lib;libfbxsdk-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FBXSDK_DIR)\lib\vs2015\x86\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="02_Script\ChipsEninge.h" />
+    <ClInclude Include="02_Script\ChipsSystem\BasicFrame\Application.h" />
+    <ClInclude Include="02_Script\ChipsSystem\BasicFrame\AComponent.h" />
+    <ClInclude Include="02_Script\ChipsSystem\BasicFrame\GameObject.h" />
+    <ClInclude Include="02_Script\ChipsSystem\BasicFrame\Scene.h" />
+    <ClInclude Include="02_Script\ChipsSystem\BasicFrame\IEngineFrame.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Camera\Camera.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\BaiscComponents\Animator.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\BaiscComponents\Rigidbody.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\BaiscComponents\AudioSource.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\BaiscComponents\Transform.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\ACollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\BoxCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\CapsuleCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\ConvexMeshCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\MeshCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\PlaneCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\ColliderComponents\SphereCollider.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\LightComponents\DirectionalLight.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\LightComponents\PointLight.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\LightComponents\SpotLight.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\BoxRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\CapsuleRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\CylinderRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\PlaneRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\QuadRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\FbxRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\AMeshRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\ParticleRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\SkinRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\SkyRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\SphereRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\RendererComponents\TextRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\UIComponents\AUIRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\UIComponents\ImageUIRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\UIComponents\TextUIRenderer.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Components\UIComponents\UIButton.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\ChipsCallbacks.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\Debug.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\FbxLoader.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\Input.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\LayerMask.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\Mathf.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\Singleton.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Etc\StringLib.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Global\Global.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\BuildManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\LightManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\GraphicManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\ParticleManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\PhysxManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\ScheduleManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\TextManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Manager\UIManager.h" />
+    <ClInclude Include="02_Script\ChipsSystem\Time\Time.h" />
+    <ClInclude Include="02_Script\Demo\Scene\HouseScene.h" />
+    <ClInclude Include="02_Script\Demo\Scene\StartScene.h" />
+    <ClInclude Include="02_Script\DirectX\DirectX11Effect\d3dx11effect.h" />
+    <ClInclude Include="02_Script\DirectX\DirectXTex\DirectXTex.h" />
+    <ClInclude Include="02_Script\DirectX\Effects\Effects.h" />
+    <ClInclude Include="02_Script\DirectX\Effects\LightHelper.h" />
+    <ClInclude Include="02_Script\DirectX\Effects\RenderStates.h" />
+    <ClInclude Include="02_Script\DirectX\Light\Light.h" />
+    <ClInclude Include="02_Script\DirectX\MeshGenerator\MeshGenerator.h" />
+    <ClInclude Include="02_Script\Fmod\fmod.h" />
+    <ClInclude Include="02_Script\Fmod\fmod.hpp" />
+    <ClInclude Include="02_Script\Fmod\fmod_codec.h" />
+    <ClInclude Include="02_Script\Fmod\fmod_dsp.h" />
+    <ClInclude Include="02_Script\Fmod\fmod_errors.h" />
+    <ClInclude Include="02_Script\Fmod\fmod_memoryinfo.h" />
+    <ClInclude Include="02_Script\Fmod\fmod_output.h" />
+    <ClInclude Include="02_Script\PCH\stdafx.h" />
+    <ClInclude Include="02_Script\Resource.h" />
+    <ClInclude Include="02_Script\targetver.h" />
+    <ClInclude Include="02_Script\TinyXml2\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02_Script\ChipsEninge.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\BasicFrame\Application.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\BasicFrame\AComponent.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\BasicFrame\GameObject.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\BasicFrame\Scene.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Camera\Camera.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\BaiscComponents\Animator.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\BaiscComponents\Rigidbody.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\BaiscComponents\AudioSource.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\BaiscComponents\Transform.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\ACollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\BoxCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\CapsuleCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\ConvexMeshCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\MeshCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\PlaneCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\ColliderComponents\SphereCollider.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\LightComponents\DirectionalLight.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\LightComponents\PointLight.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\LightComponents\SpotLight.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\BoxRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\CapsuleRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\CylinderRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\PlaneRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\QuadRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\FbxRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\AMeshRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\ParticleRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\SkinRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\SkyRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\SphereRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\RendererComponents\TextRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\UIComponents\AUIRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\UIComponents\ImageUIRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\UIComponents\TextUIRenderer.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Components\UIComponents\UIButton.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Etc\ChipsCallbacks.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Etc\FbxLoader.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Etc\Input.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Etc\LayerMask.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Global\Global.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\BuildManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\LightManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\GraphicManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\ParticleManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\PhysxManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\ScheduleManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\TextManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Manager\UIManager.cpp" />
+    <ClCompile Include="02_Script\ChipsSystem\Time\Time.cpp" />
+    <ClCompile Include="02_Script\Demo\Scene\HouseScene.cpp" />
+    <ClCompile Include="02_Script\Demo\Scene\StartScene.cpp" />
+    <ClCompile Include="02_Script\DirectX\Effects\Effects.cpp" />
+    <ClCompile Include="02_Script\DirectX\Effects\LightHelper.cpp" />
+    <ClCompile Include="02_Script\DirectX\Effects\RenderStates.cpp" />
+    <ClCompile Include="02_Script\DirectX\Light\Light.cpp" />
+    <ClCompile Include="02_Script\DirectX\MeshGenerator\MeshGenerator.cpp" />
+    <ClCompile Include="02_Script\PCH\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="02_Script\TinyXml2\tinyxml2.cpp" />
+    <ClCompile Include="IEngineFrame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChipsEninge.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ChipsEninge.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="01_Asset\Fx\BuildShadowMap.fx">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc /Od /Zi /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc compile for debug: %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc compile for release: %(FullPath)</Message>
+    </CustomBuild>
+    <None Include="01_Asset\Fx\LightHelper.fx">
+      <FileType>Document</FileType>
+    </None>
+    <CustomBuild Include="01_Asset\Fx\StandardShader.fx">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc /Od /Zi /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc compile for debug: %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc compile for release: %(FullPath)</Message>
+    </CustomBuild>
+    <CustomBuild Include="01_Asset\Fx\Particle.fx">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc /Od /Zi /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc compile for debug: %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc compile for release: %(FullPath)</Message>
+    </CustomBuild>
+    <CustomBuild Include="01_Asset\Fx\Sky.fx">
+      <FileType>Document</FileType>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc /Od /Zi /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc compile for debug: %(FullPath)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc compile for release: %(FullPath)</Message>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="01_Asset\Fx\PostProcessing.fx">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc /Fc /Od /Zi /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fxc compile for debug: %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc /T fx_5_0 /Fo "%(RelativeDir)\%(Filename).fxo" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fxc compile for release: %(FullPath)</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)\%(Filename).fxo</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01_Asset\Fx\RaymarcingHelper.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="01_Asset\Fx\PostProcessingHelper.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

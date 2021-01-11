@@ -1,0 +1,1 @@
+#include "DirectX/Effects/LightHelper.h"
