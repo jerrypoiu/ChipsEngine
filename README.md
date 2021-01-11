@@ -11,12 +11,6 @@ __Video (Click)__
 __Class Diagram__  
 ![classdiagram](/DescriptionImage/classDiagram.png)  
 
-__Core Class__
-> - Application
-> - Scene
-> - GameObject
-> - AComponent  
- 
  __Core Features__
 > - Transform (Scene Graph)
 > - Physics Engine (PhysX) – Rigidbody, Collider
