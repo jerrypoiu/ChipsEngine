@@ -1,5 +1,4 @@
-## __Description__  
-___  
+## __Description__    
 __0. Video (Click)__  
 ![Video](https://www.youtube.com/watch?v=Y8z6awMjyoc)  
 __1. Source code (C++) engine based on DirectX11.__  
@@ -65,13 +64,11 @@ __8. Post Processing Stack__
 > - Fade In, Fade Out
  
 ## __Requirements__
-___
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
   - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
  
 ## __Using Library, SDK__
-___
 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
  - TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.
