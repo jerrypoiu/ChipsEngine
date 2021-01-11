@@ -68,11 +68,11 @@ __Post Processing Stack__
 > - Fade In, Fade Out
  
 __File Format__  
-|Type||Format|  
-|3D||fbx|  
-|Texture||dds|  
-|Sound||mp3, wav, Other FMOD-enabled formats|  
-|Font||spritefont|  
+|Type|Format|  
+|3D|fbx|  
+|Texture|dds|  
+|Sound|mp3, wav, Other FMOD-enabled formats|  
+|Font|spritefont|  
 ## __Requirements__
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
