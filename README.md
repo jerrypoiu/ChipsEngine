@@ -6,7 +6,7 @@ ___
 3. LDR(Low Dynamic Range), Forward Rendering.
 4. Class structure and function interface are similar to Unity, familiar to Unity users.
 5. Class Diagram  
-![classDiagram](./Description Image/classdiagram.png)
+![diagram](./Description Image/classdiagram.png)
 6. Core Class
  - Application 
  - Scene  
@@ -23,7 +23,7 @@ ___
  - Post Processing
  - 3D Sound (FMOD)
  - Input System - Keyboard, Mouse
- - Schedule System – Unity의 Invoke 기능과 유사.
+ - Schedule System
  - Debug Rendering
  - Auto Memory Management  
 8. Post Processing Stack
