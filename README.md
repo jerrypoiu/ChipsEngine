@@ -10,6 +10,14 @@ __Video (Click)__
 
 __Class Diagram__  
 ![classdiagram](/DescriptionImage/classDiagram.png)  
+ 
+__File Format__  
+|Type|Format|  
+|:-------:|----------------------------------|  
+|3D|fbx|  
+|Texture|dds|  
+|Sound|mp3, wav, ther FMOD-enabled formats|  
+|Font|spritefont|  
 
  __Core Features__
 > - Transform (Scene Graph)
@@ -60,14 +68,7 @@ __Post Processing Stack__
 > - Noise
 > - Cinematic Line
 > - Fade In, Fade Out
- 
-__File Format__  
-|Type|Format|  
-|:-------:|----------------------------------|  
-|3D|fbx|  
-|Texture|dds|  
-|Sound|mp3, wav, ther FMOD-enabled formats|  
-|Font|spritefont|  
+
 ## __Requirements__
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
