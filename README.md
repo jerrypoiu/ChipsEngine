@@ -9,10 +9,10 @@ __4. Class structure and function interface are similar to Unity, familiar to Un
 __5. Class Diagram__  
 ![classdiagram](/DescriptionImage/classDiagram.png)  
 __6. Core Class__
- - Application
- - Scene
- - GameObject
- - AComponent  
+> - Application
+> - Scene
+> - GameObject
+> - AComponent  
  
  __7. Core Features__
  - Transform (Scene Graph)
