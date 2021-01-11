@@ -26,7 +26,7 @@ __Core Class__
 > - Particle Rendering
 > - UI Rendering – Text, Image, Button
 > - Post Processing
-> - 3D Sound (FMOD)
+> - 3D, 2 Sound (FMOD)
 > - Input System - Keyboard, Mouse
 > - Schedule System
 > - Debug Rendering
@@ -67,6 +67,12 @@ __Post Processing Stack__
 > - Cinematic Line
 > - Fade In, Fade Out
  
+__File Format__
+|Type||Format|  
+|3D||fbx|
+|Texture||dds|
+|Sound||mp3, wav, Other FMOD-enabled formats|
+|Font||spritefont|
 ## __Requirements__
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
