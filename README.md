@@ -15,54 +15,54 @@ __6. Core Class__
 > - AComponent  
  
  __7. Core Features__
- - Transform (Scene Graph)
- - Physics Engine (PhysX) – Rigidbody, Collider
- - Light System – Directional, Spot, Point, Shadow
- - Basic Geometric Rendering, Sky Rendering
- - Mesh, Skin Rendering and Skeletal Animation (FBX SDK)
- - Particle Rendering
- - UI Rendering – Text, Image, Button
- - Post Processing
- - 3D Sound (FMOD)
- - Input System - Keyboard, Mouse
- - Schedule System
- - Debug Rendering
- - Auto Memory Management  
+> - Transform (Scene Graph)
+> - Physics Engine (PhysX) – Rigidbody, Collider
+> - Light System – Directional, Spot, Point, Shadow
+> - Basic Geometric Rendering, Sky Rendering
+> - Mesh, Skin Rendering and Skeletal Animation (FBX SDK)
+> - Particle Rendering
+> - UI Rendering – Text, Image, Button
+> - Post Processing
+> - 3D Sound (FMOD)
+> - Input System - Keyboard, Mouse
+> - Schedule System
+> - Debug Rendering
+> - Auto Memory Management  
  
 __8. Post Processing Stack__  
- - Ray Marching
- - Screen Space Ambient Occlusion (SSAO)
- - Dark
- - Depth Of Field
- - Motion Blur
- - Gaussian Blur, Box Blur
- - Vertical Blur, Horizontal Blur
- - Rain
- - Blood
- - Chromatic Aberration
- - Bloom
- - Vignetting
- - Gamma
- - Contrast
- - Bright
- - Saturate
- - Smooth Step
- - Tint
- - Sepia
- - Gray Scale
- - Inverse
- - LUT (2D)
- - Tonemap-ACES, Unreal, Reinhard
- - Old Game Style
- - Edge
- - Embossed
- - Flicker
- - Cartoon
- - Mosaic
- - Vertical Lines, Horizontal Lines
- - Noise
- - Cinematic Line
- - Fade In, Fade Out
+> - Ray Marching
+> - Screen Space Ambient Occlusion (SSAO)
+> - Dark
+> - Depth Of Field
+> - Motion Blur
+> - Gaussian Blur, Box Blur
+> - Vertical Blur, Horizontal Blur
+> - Rain
+> - Blood
+> - Chromatic Aberration
+> - Bloom
+> - Vignetting
+> - Gamma
+> - Contrast
+> - Bright
+> - Saturate
+> - Smooth Step
+> - Tint
+> - Sepia
+> - Gray Scale
+> - Inverse
+> - LUT (2D)
+> - Tonemap-ACES, Unreal, Reinhard
+> - Old Game Style
+> - Edge
+> - Embossed
+> - Flicker
+> - Cartoon
+> - Mosaic
+> - Vertical Lines, Horizontal Lines
+> - Noise
+> - Cinematic Line
+> - Fade In, Fade Out
  
 ## __Requirements__
 ___
