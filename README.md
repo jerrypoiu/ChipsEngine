@@ -1,6 +1,7 @@
 ## __Description__    
 __0. Video (Click)__  
-[![video](https://www.youtube.com/watch?v=Y8z6awMjyoc)][https://www.youtube.com/watch?v=Y8z6awMjyoc]
+[![IU(아이유) _ Into the I-LAND](http://img.youtube.com/vi/QYNwbZHmh8g/0.jpg)](https://youtu.be/QYNwbZHmh8g?t=0s) 
+
 __1. Source code (C++) engine based on DirectX11.__  
 __2. The framework is implemented in Component Based Development (CBD).__  
 __3. LDR(Low Dynamic Range), Forward Rendering.__  
