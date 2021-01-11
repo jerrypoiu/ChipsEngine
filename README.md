@@ -78,6 +78,9 @@ __Post Processing Stack__
 [Lib, Dll](https://drive.google.com/file/d/1IzhkCYr7YYKaj9h9ftfQW_yliZ2I7n-K/view?usp=sharing)  
  - __Download the resource and extract it to the 03_Lib, 04_Dll folder.__  
  
+[FbxSDK bin](https://drive.google.com/file/d/1z8lkl08F_j2KhMRP0ReUHIHmjNIUNUMu/view?usp=sharing)  
+ - __Download the resource and extract it to the 02_Script\PhysXSDK\PhysX folder.__ 
+
 ## __Using Library, SDK__
 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
