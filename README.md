@@ -1,21 +1,19 @@
-## __ChipsEngine__  
-### __Description__  
+## __Description__  
 ___  
-0. Video (Click) 
-
+0. Video (Click)  
 ![Video](https://www.youtube.com/watch?v=Y8z6awMjyoc)
-1. Source code (C++) engine based on DirectX11.
-2. The framework is implemented in Component Based Development (CBD).
-3. LDR(Low Dynamic Range), Forward Rendering.
-4. Class structure and function interface are similar to Unity, familiar to Unity users.
-5. Class Diagram  
+### __1. Source code (C++) engine based on DirectX11.__
+### __2. The framework is implemented in Component Based Development (CBD).__
+### __3. LDR(Low Dynamic Range), Forward Rendering.__
+### __4. Class structure and function interface are similar to Unity, familiar to Unity users.__
+### __5. Class Diagram__
 ![classdiagram](/DescriptionImage/classDiagram.png)  
-6. Core Class
- - Application 
- - Scene  
- - GameObject  
+### __6. Core Class__
+ - Application
+ - Scene
+ - GameObject
  - AComponent
-7. Core Features
+ ### __7. Core Features__
  - Transform (Scene Graph)
  - Physics Engine (PhysX) – Rigidbody, Collider
  - Light System – Directional, Spot, Point, Shadow
@@ -29,7 +27,7 @@ ___
  - Schedule System
  - Debug Rendering
  - Auto Memory Management  
-8. Post Processing Stack
+### __8. Post Processing Stack__
  - Ray Marching
  - Screen Space Ambient Occlusion (SSAO)
  - Dark
@@ -63,14 +61,14 @@ ___
  - Noise
  - Cinematic Line
  - Fade In, Fade Out
-
-### __Requirements__
+ 
+## __Requirements__
 ___
 [FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
 
   - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
  
-### __Using Library, SDK__
+## __Using Library, SDK__
 ___
 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
