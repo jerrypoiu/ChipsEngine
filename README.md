@@ -12,7 +12,7 @@ __6. Core Class__
  - Application
  - Scene
  - GameObject
- - AComponent
+ - AComponent  
  __7. Core Features__
  - Transform (Scene Graph)
  - Physics Engine (PhysX) – Rigidbody, Collider
@@ -27,7 +27,7 @@ __6. Core Class__
  - Schedule System
  - Debug Rendering
  - Auto Memory Management  
-__8. Post Processing Stack__
+__8. Post Processing Stack__  
  - Ray Marching
  - Screen Space Ambient Occlusion (SSAO)
  - Dark
