@@ -75,6 +75,9 @@ __Post Processing Stack__
 [Resource](https://drive.google.com/file/d/1JD8vBoutQbyXtGuFTOFBQj3zOnIGCdsO/view?usp=sharing)  
  - __Download the resource and extract it to the 01_Asset folder.__
  
+[Lib, Dll](https://drive.google.com/file/d/1IzhkCYr7YYKaj9h9ftfQW_yliZ2I7n-K/view?usp=sharing)  
+ - __Download the resource and extract it to the 03_Lib, 04_Dll folder.__  
+ 
 ## __Using Library, SDK__
 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
