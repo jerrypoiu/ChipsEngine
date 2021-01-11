@@ -67,7 +67,7 @@ __Post Processing Stack__
 > - Cinematic Line
 > - Fade In, Fade Out
  
-__File Format__
+__File Format__  
 |Type||Format|  
 |3D||fbx|
 |Texture||dds|
