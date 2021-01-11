@@ -1,19 +1,20 @@
 ## __Description__  
 ___  
 0. Video (Click)  
+
 ![Video](https://www.youtube.com/watch?v=Y8z6awMjyoc)
-### __1. Source code (C++) engine based on DirectX11.__
-### __2. The framework is implemented in Component Based Development (CBD).__
-### __3. LDR(Low Dynamic Range), Forward Rendering.__
-### __4. Class structure and function interface are similar to Unity, familiar to Unity users.__
-### __5. Class Diagram__
+__1. Source code (C++) engine based on DirectX11.__
+__2. The framework is implemented in Component Based Development (CBD).__
+__3. LDR(Low Dynamic Range), Forward Rendering.__
+__4. Class structure and function interface are similar to Unity, familiar to Unity users.__
+__5. Class Diagram__
 ![classdiagram](/DescriptionImage/classDiagram.png)  
-### __6. Core Class__
+__6. Core Class__
  - Application
  - Scene
  - GameObject
  - AComponent
- ### __7. Core Features__
+ __7. Core Features__
  - Transform (Scene Graph)
  - Physics Engine (PhysX) – Rigidbody, Collider
  - Light System – Directional, Spot, Point, Shadow
@@ -27,7 +28,7 @@ ___
  - Schedule System
  - Debug Rendering
  - Auto Memory Management  
-### __8. Post Processing Stack__
+__8. Post Processing Stack__
  - Ray Marching
  - Screen Space Ambient Occlusion (SSAO)
  - Dark
