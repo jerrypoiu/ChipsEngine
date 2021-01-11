@@ -2,7 +2,6 @@
 ## __Description__    
 __0. Video (Click)__  
 [![Video](https://img.youtube.com/vi/Y8z6awMjyoc/0.jpg)](https://www.youtube.com/watch?v=Y8z6awMjyoc) 
-
 __1. Source code (C++) engine based on DirectX11.__  
 __2. The framework is implemented in Component Based Development (CBD).__  
 __3. LDR(Low Dynamic Range), Forward Rendering.__  
