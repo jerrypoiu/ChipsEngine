@@ -83,6 +83,9 @@ __Post Processing Stack__
 
 ## __Using Library, SDK__
 
+DirectX11 
+ - DirectX is a collection of application programming interfaces (APIs) for handling tasks related to multimedia, especially game programming and video, on Microsoft platforms.
+ 
 [tinyxml2](https://github.com/leethomason/tinyxml2)    
  - TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs.
  - zlib License  
