@@ -70,8 +70,8 @@ __Post Processing Stack__
 > - Fade In, Fade Out
 
 ## __Requirements__
-[FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
-
+[FbxSDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2019-0)
+ - important! you have to download "FBX SDK 2019.0 VS2015 version" and make a "FBXSDK_DIR"(Environment Variable).
  - FBX® SDK is a free, easy-to-use, C++ software development platform and API toolkit that allows application and content vendors to transfer existing content into the FBX format with minimal effort.  
  
 [Resource](https://drive.google.com/file/d/1b5gKnsMSfgWKhYkCK3A19AtoijYiqyRl/view?usp=sharing)  
